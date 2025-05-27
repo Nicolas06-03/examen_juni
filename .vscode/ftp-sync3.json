@@ -1,0 +1,27 @@
+{
+    "remotePath": "./6AD",
+    "host": "ftp.nicolas.stedelijklyceumexpo.be",
+    "username": "Nicolasdemol@nicolas.stedelijklyceumexpo.be",
+    "password": "Benikdom?1",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ".html, .css, .js, .php, .json"
+        ],
+        "path": ""
+    }
+}
