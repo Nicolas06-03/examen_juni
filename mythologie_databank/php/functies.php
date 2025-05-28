@@ -1,6 +1,6 @@
 <?php
 function navbaraanroepen(){
-    include ("connection.php")
+    include ("myth_connection.php")
     ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand">Mythologische verhalen</a>
