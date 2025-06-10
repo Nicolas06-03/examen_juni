@@ -1,6 +1,4 @@
 document.getElementById("login-form").addEventListener("submit", function(e) {
-    e.preventDefault();
-  
     const data = {
       gebruikersnaam: document.getElementById("gebruikersnaam").value,
       wachtwoord: document.getElementById("wachtwoord").value

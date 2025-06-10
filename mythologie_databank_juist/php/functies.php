@@ -14,6 +14,9 @@ function navbaraanroepen(){
             </li>
             <?php if (isset($_SESSION['gebruiker_id'])): ?>
                 <li class="nav-item">
+                    <a class="nav-link" href="gebruikersbeheer.html">Gebruikersbeheer</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="../php/logout.php">Log Out (<?= htmlspecialchars($_SESSION['gebruiker']) ?>)</a>
                 </li>
             <?php else: ?>
